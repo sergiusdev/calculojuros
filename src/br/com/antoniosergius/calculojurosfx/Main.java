@@ -1,4 +1,4 @@
-package br.com.antoniosergius.testefx;
+package br.com.antoniosergius.calculojurosfx;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;

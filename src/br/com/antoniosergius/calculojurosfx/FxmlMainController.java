@@ -1,4 +1,4 @@
-package br.com.antoniosergius.testefx;
+package br.com.antoniosergius.calculojurosfx;
 
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
