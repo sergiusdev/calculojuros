@@ -19,11 +19,10 @@ public class FxmlMainController {
 	
 	@FXML 
 	public void handleButtonAction(ActionEvent event) {
-		if (hasJustOneFieldEmpty()) {
-			switch (choosenField) {
+	   if (hasJustOneFieldEmpty()) {
+	      switch (choosenField) {
 			case "valorPrincipal":
-				
-				break;
+			   break;
 			case "taxaJuros":
 				break;
 			case "parcela":
@@ -58,7 +57,7 @@ public class FxmlMainController {
 			
 		if (tfParcela.getText().isEmpty()) {
 			if (hasOneEmpty) {
-				return false;
+			   return false;
 			} else {
 				emptyField = "parcela";
 				hasOneEmpty = true;
