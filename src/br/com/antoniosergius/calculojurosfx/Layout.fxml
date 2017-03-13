@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<GridPane fx:controller="br.com.antoniosergius.calculojurosfx.FxmlMainController" hgap="15" vgap="15" 
+<GridPane fx:id="gridPane" fx:controller="br.com.antoniosergius.calculojurosfx.FxmlMainController" hgap="15" vgap="15" 
 		alignment="center" xmlns:fx="http://javafx.com/fxml/1">
 
 	<columnConstraints>
@@ -46,7 +46,9 @@
 		
 		<HBox spacing="10.0" alignment="bottom_right" GridPane.rowIndex="7" 
 			  GridPane.columnIndex="0" GridPane.columnSpan="2">
-			<Button text="Calcular" onAction="#handleButtonAction"/>
+			<Button text="Limpar" onAction="#buttonLimparAction"/>
+			<Button text="Calcular" onAction="#buttonCalcularAction"/>
+			
 		</HBox>
 		
 		<Text fx:id="errorMsg" GridPane.rowIndex="8" GridPane.columnIndex="0" GridPane.columnSpan="2"

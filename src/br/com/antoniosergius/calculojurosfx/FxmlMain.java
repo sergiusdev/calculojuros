@@ -12,6 +12,7 @@ public class FxmlMain extends Application {
       Parent root = FXMLLoader.load(getClass().getResource("Layout.fxml"));
 
       Scene scene = new Scene(root, 320, 357);
+      primaryStage.setTitle("Juros Compostos");
       primaryStage.setScene(scene);
       primaryStage.show();
    }
